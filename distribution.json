@@ -4,11 +4,11 @@
   "servers": [
     {
       "id": "Samarium-1.7.10",
-      "name": "<FILL IN MANUALLY>",
+      "name": "Samarium>",
       "description": "<FILL IN MANUALLY>",
-      "icon": "<FILL IN MANUALLY>",
+      "icon": "Samarium.png",
       "version": "1.0.0",
-      "address": "<FILL IN MANUALLY>",
+      "address": "proxy-samarium.ddns.net",
       "minecraftVersion": "1.7.10",
       "discord": {
         "shortId": "<FILL IN MANUALLY OR REMOVE>",
