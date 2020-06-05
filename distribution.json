@@ -4,9 +4,9 @@
   "servers": [
     {
       "id": "Samarium-1.7.10",
-      "name": "Samarium>",
+      "name": "Samarium",
       "description": "<FILL IN MANUALLY>",
-      "icon": "Samarium.png",
+      "icon": "",
       "version": "1.0.0",
       "address": "proxy-samarium.ddns.net",
       "minecraftVersion": "1.7.10",
@@ -16,7 +16,7 @@
         "largeImageKey": "<FILL IN MANUALLY OR REMOVE>"
       },
       "mainServer": false,
-      "autoconnect": false,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10:universal",
