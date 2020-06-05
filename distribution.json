@@ -19,7 +19,7 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10:universal",
+         "id": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10:universal",
           "name": "Minecraft Forge",
           "type": "ForgeHosted",
           "artifact": {
@@ -229,8 +229,8 @@
           }
         },
         {
-          "id": "generated.forgemod:chisel-2.9.5.11 (1):0.0.0@jar",
-          "name": "Chisel-2.9.5.11 (1).jar",
+          "id": "generated.forgemod:chisel-2.9.5.11:0.0.0@jar",
+          "name": "Chisel-2.9.5.11.jar",
           "type": "ForgeMod",
           "required": {
             "value": false,
@@ -239,21 +239,21 @@
           "artifact": {
             "size": 6378920,
             "MD5": "c76378129307ab7b371bb9b3b8631fce",
-            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/Chisel-2.9.5.11%20(1).jar"
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/Chisel-2.9.5.11.jar"
           }
         },
         {
-          "id": "generated.forgemod:codechickencore:0.0.0@jar",
-          "name": "CodeChickenCore.jar",
+          "id": "generated.forgemod:codechickencore-1.7.10-1.0.7.47-universal:0.0.0@jar",
+          "name": "CodeChickenCore-1.7.10-1.0.7.47-universal.jar",
           "type": "ForgeMod",
           "required": {
             "value": false,
             "def": false
           },
           "artifact": {
-            "size": 157678,
-            "MD5": "23978d3c16f19d0d2808c4b451d78f87",
-            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/CodeChickenCore.jar"
+            "size": 145782,
+            "MD5": "07690caf86ecf79739852154f5e44750",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/CodeChickenCore-1.7.10-1.0.7.47-universal.jar"
           }
         },
         {
@@ -268,20 +268,6 @@
             "size": 8972983,
             "MD5": "4cb28a4ddbfe0b6aa547cdb9acd5a241",
             "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/CustomNPCs.jar"
-          }
-        },
-        {
-          "id": "generated.forgemod:ironchest:0.0.0@jar",
-          "name": "IronChest.jar",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": false
-          },
-          "artifact": {
-            "size": 4196318,
-            "MD5": "4a340ef8976171ba6d966db5f88da909",
-            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/IronChest.jar"
           }
         },
         {
@@ -313,17 +299,17 @@
           }
         },
         {
-          "id": "generated.forgemod:notenoughitems:0.0.0@jar",
-          "name": "NotEnoughItems.jar",
+          "id": "generated.forgemod:notenoughitems-1.7.10-1.0.5.120-universal:0.0.0@jar",
+          "name": "NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
           "type": "ForgeMod",
           "required": {
             "value": false,
             "def": false
           },
           "artifact": {
-            "size": 507333,
-            "MD5": "7c2c35414e28e0dc01eea315368bc1ec",
-            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/NotEnoughItems.jar"
+            "size": 513136,
+            "MD5": "742e865a9a80071e80976ffedc05700e",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/NotEnoughItems-1.7.10-1.0.5.120-universal.jar"
           }
         },
         {
@@ -453,6 +439,20 @@
           }
         },
         {
+          "id": "generated.forgemod:bspkrsCore:6.16@jar",
+          "name": "BspkrsCore",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 198525,
+            "MD5": "e77344bda12bd0b91e01dfbb00a653f0",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/[1.7.10]bspkrsCore-universal-6.16.jar"
+          }
+        },
+        {
           "id": "generated.forgemod:caveblock:1.0.0@jar",
           "name": "Caveblock",
           "type": "ForgeMod",
@@ -467,31 +467,17 @@
           }
         },
         {
-          "id": "generated.forgemod:discord-rpc-2.0.1:0.0.0@jar",
-          "name": "Discord-rpc-2.0.1.jar",
+          "id": "generated.forgemod:ironchest-1.7.10-6.0.62.742-universal:0.0.0@jar",
+          "name": "Ironchest-1.7.10-6.0.62.742-universal.jar",
           "type": "ForgeMod",
           "required": {
             "value": false,
             "def": false
           },
           "artifact": {
-            "size": 1706638,
-            "MD5": "92343e46f9dab69c143c283c856f2eb3",
-            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/discord-rpc-2.0.1.jar"
-          }
-        },
-        {
-          "id": "generated.forgemod:json-simple-1.1.1:0.0.0@jar",
-          "name": "Json-simple-1.1.1.jar",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": false
-          },
-          "artifact": {
-            "size": 23931,
-            "MD5": "5cc2c478d73e8454b4c369cee66c5bc7",
-            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/json-simple-1.1.1.jar"
+            "size": 158104,
+            "MD5": "48d942594459c437ce8e8648ca42a7b9",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/ironchest-1.7.10-6.0.62.742-universal.jar"
           }
         },
         {
@@ -520,20 +506,6 @@
             "size": 1643365,
             "MD5": "8fcfcf863177cc6771ff54aba2b60e49",
             "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/malisisdoors-1.7.10-1.13.1.jar"
-          }
-        },
-        {
-          "id": "generated.forgemod:WorldEdit:6.1.1;no_git_id@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": false
-          },
-          "artifact": {
-            "size": 1461467,
-            "MD5": "2009d49df40267da5bba19e09e29463a",
-            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/worldedit-forge-mc1.7.10-6.1.1-dist%20(3).jar"
           }
         },
         {
@@ -584,4 +556,4 @@
       ]
     }
   ]
-}
+} 
