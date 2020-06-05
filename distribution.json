@@ -4,11 +4,11 @@
   "servers": [
     {
       "id": "Samarium-1.7.10",
-      "name": "<FILL IN MANUALLY>",
+      "name": "Samarium",
       "description": "<FILL IN MANUALLY>",
       "icon": "<FILL IN MANUALLY>",
       "version": "1.0.0",
-      "address": "<FILL IN MANUALLY>",
+      "address": "proxy-samarium.ddns.net",
       "minecraftVersion": "1.7.10",
       "discord": {
         "shortId": "<FILL IN MANUALLY OR REMOVE>",
@@ -27,7 +27,7 @@
             "MD5": "add0fba161c4652a96efb4264ec2d9ec",
             "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar"
           },
-          "subModules": [
+          
             {
               "id": "net.minecraft:launchwrapper:1.12@jar",
               "name": "Minecraft Forge (launchwrapper)",
