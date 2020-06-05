@@ -27,7 +27,6 @@
             "MD5": "add0fba161c4652a96efb4264ec2d9ec",
             "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar"
           },
-          
           "subModules": [
             {
               "id": "net.minecraft:launchwrapper:1.12@jar",
@@ -39,20 +38,6 @@
                 "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
               }
             },
-            {
-          "id": "generated.forgemod:TravellersGear:1.16.6@jar",
-          "name": "Traveller's Gear",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": false
-          },
-          "artifact": {
-            "size": 312717,
-            "MD5": "c131993743554bace7bb96fb3bcdc249",
-            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/TravellersGear-1.7.10-1.16.6.jar"
-          }
-        },
             {
               "id": "org.ow2.asm:asm-all:5.0.3@jar",
               "name": "Minecraft Forge (asm-all)",
@@ -423,6 +408,20 @@
             "size": 5601409,
             "MD5": "7680e41907c053537b890c67e02db733",
             "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/TConstruct-1.7.10-1.8.8.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:TravellersGear:1.16.6@jar",
+          "name": "Traveller's Gear",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 312717,
+            "MD5": "c131993743554bace7bb96fb3bcdc249",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/TravellersGear-1.7.10-1.16.6.jar"
           }
         },
         {
