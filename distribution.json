@@ -27,7 +27,19 @@
             "MD5": "add0fba161c4652a96efb4264ec2d9ec",
             "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar"
           },
-          {
+          
+          "subModules": [
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
           "id": "generated.forgemod:TravellersGear:1.16.6@jar",
           "name": "Traveller's Gear",
           "type": "ForgeMod",
@@ -41,17 +53,6 @@
             "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/TravellersGear-1.7.10-1.16.6.jar"
           }
         },
-          "subModules": [
-            {
-              "id": "net.minecraft:launchwrapper:1.12@jar",
-              "name": "Minecraft Forge (launchwrapper)",
-              "type": "Library",
-              "artifact": {
-                "size": 32999,
-                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-              }
-            },
             {
               "id": "org.ow2.asm:asm-all:5.0.3@jar",
               "name": "Minecraft Forge (asm-all)",
