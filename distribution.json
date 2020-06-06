@@ -243,20 +243,6 @@
           }
         },
         {
-          "id": "generated.forgemod:codechickencore:0.0.0@jar",
-          "name": "CodeChickenCore.jar",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 157678,
-            "MD5": "23978d3c16f19d0d2808c4b451d78f87",
-            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/CodeChickenCore.jar"
-          }
-        },
-        {
           "id": "generated.forgemod:customnpcs:1.7.10@jar",
           "name": "CustomNpcs",
           "type": "ForgeMod",
@@ -310,20 +296,6 @@
             "size": 202458,
             "MD5": "934fe4ef7a9b971f22b5dd53e57fa976",
             "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/Mantle-1.7.10-0.3.2b.jar"
-          }
-        },
-        {
-          "id": "generated.forgemod:notenoughitems:0.0.0@jar",
-          "name": "NotEnoughItems.jar",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 507333,
-            "MD5": "7c2c35414e28e0dc01eea315368bc1ec",
-            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/NotEnoughItems.jar"
           }
         },
         {
