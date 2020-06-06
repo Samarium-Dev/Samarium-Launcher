@@ -425,6 +425,20 @@
           }
         },
         {
+          "id": "generated.forgemod:bspkrsCore:6.15@jar",
+          "name": "BspkrsCore",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 198933,
+            "MD5": "4043efb43e92696a85fe56dc95e876ec",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/[1.7.10]bspkrsCore-universal-6.15.jar"
+          }
+        },
+        {
           "id": "generated.forgemod:malisiscore:1.7.10-0.14.3@jar",
           "name": "MalisisCore",
           "type": "ForgeMod",
