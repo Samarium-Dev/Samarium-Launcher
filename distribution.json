@@ -1,0 +1,517 @@
+{
+  "version": "1.0.0",
+  "rss": "<FILL IN MANUALLY>",
+  "servers": [
+    {
+      "id": "Samarium-1.7.10",
+      "name": "<FILL IN MANUALLY>",
+      "description": "<FILL IN MANUALLY>",
+      "icon": "<FILL IN MANUALLY>",
+      "version": "1.0.0",
+      "address": "<FILL IN MANUALLY>",
+      "minecraftVersion": "1.7.10",
+      "discord": {
+        "shortId": "<FILL IN MANUALLY OR REMOVE>",
+        "largeImageText": "<FILL IN MANUALLY OR REMOVE>",
+        "largeImageKey": "<FILL IN MANUALLY OR REMOVE>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 3018833,
+            "MD5": "add0fba161c4652a96efb4264ec2d9ec",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-all:5.0.3@jar",
+              "name": "Minecraft Forge (asm-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 241639,
+                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25364,
+                "MD5": "c7d01e5a88182df7f22b7418abb51085",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206574,
+                "MD5": "daecef8fab296b764a8fb41fc07f2428",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:4.5@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 61311,
+                "MD5": "1372bd4823bb1ef61e7db6724f601150",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:guava:17.0@jar",
+              "name": "Minecraft Forge (guava)",
+              "type": "Library",
+              "artifact": {
+                "size": 2243036,
+                "MD5": "89fef81c2adfa9b50a64ed5cd5d8c155",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/com/google/guava/guava/17.0/guava-17.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.commons:commons-lang3:3.3.2@jar",
+              "name": "Minecraft Forge (commons-lang3)",
+              "type": "Library",
+              "artifact": {
+                "size": 412739,
+                "MD5": "3128bf75a2549ebe38663401191bacab",
+                "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/repo/lib/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.forgemod:Baubles:1.7.10-1.0.1.10@jar",
+          "name": "Baubles",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 95415,
+            "MD5": "0e711d6535970f62d4964edaa26f4623",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/Baubles-1.7.10-1.0.1.10.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:CarpentersBlocks:3.2.8.7@jar",
+          "name": "Carpenter's Blocks",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 439934,
+            "MD5": "50a1323595b1a685a7e1169d8e02145e",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/CarpenterBlocks.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:chisel-2.9.5.11:0.0.0@jar",
+          "name": "Chisel-2.9.5.11.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 6378920,
+            "MD5": "c76378129307ab7b371bb9b3b8631fce",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/Chisel-2.9.5.11.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:customnpcs:1.7.10@jar",
+          "name": "CustomNpcs",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 8972983,
+            "MD5": "4cb28a4ddbfe0b6aa547cdb9acd5a241",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/CustomNPCs.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:ironchest:0.0.0@jar",
+          "name": "IronChest.jar",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4196318,
+            "MD5": "4a340ef8976171ba6d966db5f88da909",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/IronChest.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:magicalcrops:4.0.0_PUBLIC_BETA_3@jar",
+          "name": "Magical Crops",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3068067,
+            "MD5": "b8d24f4f048e6bcff3933a30dcc664a9",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/MagicalCrops.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:Mantle:0.3.2b@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 202458,
+            "MD5": "934fe4ef7a9b971f22b5dd53e57fa976",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/Mantle-1.7.10-0.3.2b.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:optifine:1.7.10_HD_U_D6@jar",
+          "name": "OptiFine 1.7.10_HD_U_D6",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1222159,
+            "MD5": "a287d0b19de2de30892efc3b52468032",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/Optifine.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:RTG:1.1.1.7@jar",
+          "name": "Realistic Terrain Generation",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2444070,
+            "MD5": "879e4b69150d841132a1035b022af7bb",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/RTG-1.7.10-1.1.1.7.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:samamod:Beta_1.0.3_gen@jar",
+          "name": "Samamod Client",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 78677,
+            "MD5": "be6219ef273120916bdfd7fc2e602af9",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/Samamod-Beta_1.0.4.3_gen.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:secretroomsmod:1.7.10-4.7.1.null@jar",
+          "name": "The SecretRoomsMod",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 149160,
+            "MD5": "c51965b69c0fa1993d288ea212c5db93",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/SecretRooms.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:StorageDrawers:1.7.10-1.10.9@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 585855,
+            "MD5": "c30af6bc8bff784e3ce4a703f28abb77",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/StorageDrawers.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:TConstruct:1.8.8@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 5601409,
+            "MD5": "7680e41907c053537b890c67e02db733",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/TConstruct-1.7.10-1.8.8.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:TravellersGear:1.16.6@jar",
+          "name": "Traveller's Gear",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 312717,
+            "MD5": "c131993743554bace7bb96fb3bcdc249",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/TravellersGear-1.7.10-1.16.6.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:ArmorStatusHUD:1.28@jar",
+          "name": "ArmorStatusHUD",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 27281,
+            "MD5": "f0da1af3ea5b7797d2742b7a2b874e92",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/[1.7.10]ArmorStatusHUD-client-1.28.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:StatusEffectHUD:1.27@jar",
+          "name": "StatusEffectHUD",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 24785,
+            "MD5": "d3b526e884043c01d5b1d23ca88a8cd4",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/[1.7.10]StatusEffectHUD-client-1.27.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:bspkrsCore:6.15@jar",
+          "name": "BspkrsCore",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 198933,
+            "MD5": "4043efb43e92696a85fe56dc95e876ec",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/[1.7.10]bspkrsCore-universal-6.15.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:malisiscore:1.7.10-0.14.3@jar",
+          "name": "MalisisCore",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 648081,
+            "MD5": "58e117a619bb3d729980ce320dca8535",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/malisiscore-1.7.10-0.14.3.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:malisisdoors:1.7.10-1.13.0@jar",
+          "name": "Malisis' Doors",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1643365,
+            "MD5": "8fcfcf863177cc6771ff54aba2b60e49",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/malisisdoors-1.7.10-1.13.1.jar"
+          }
+        },
+        {
+          "id": "1.7.10.jar",
+          "name": "1.7.10.jar",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 5256245,
+            "MD5": "e6b7a531b95d0c172acb704d1f54d1b3",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/files/versions/1.7.10/1.7.10.jar",
+            "path": "versions/1.7.10/1.7.10.jar"
+          }
+        },
+        {
+          "id": "1.7.10.json",
+          "name": "1.7.10.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 14681,
+            "MD5": "33325f6f56144541aded10233f28e083",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/files/versions/1.7.10/1.7.10.json",
+            "path": "versions/1.7.10/1.7.10.json"
+          }
+        },
+        {
+          "id": "1.7.10-Forge10.13.4.1614-1.7.10.json",
+          "name": "1.7.10-Forge10.13.4.1614-1.7.10.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4452,
+            "MD5": "714a74127dd195663366db278db2b35c",
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/files/versions/1.7.10-Forge10.13.4.1614-1.7.10/1.7.10-Forge10.13.4.1614-1.7.10.json",
+            "path": "versions/1.7.10-Forge10.13.4.1614-1.7.10/1.7.10-Forge10.13.4.1614-1.7.10.json"
+          }
+        }
+      ]
+    }
+  ]
+}
