@@ -8,7 +8,7 @@
       "description": "<FILL IN MANUALLY>",
       "icon": "<FILL IN MANUALLY>",
       "version": "1.0.0",
-      "address": "proxy-samarium.ddns.net",
+      "address": "68.119.31.150",
       "minecraftVersion": "1.7.10",
       "discord": {
         "shortId": "<FILL IN MANUALLY OR REMOVE>",
@@ -335,9 +335,9 @@
             "def": true
           },
           "artifact": {
-            "size": 78677,
+            "size": 88281,
             "MD5": "be6219ef273120916bdfd7fc2e602af9",
-            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/Samamod-Beta_1.0.4.3_gen.jar"
+            "url": "http://github.com/Samarium-Dev/Samarium-Launcher/raw/master/servers/Samarium-1.7.10/forgemods/Samamod-Beta.jar"
           }
         },
         {
